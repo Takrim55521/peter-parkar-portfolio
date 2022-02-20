@@ -5,8 +5,11 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
-#header-title{
+.header-title{
     color: orange;
 }
 
@@ -41,7 +44,28 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
-
-.third-title{
-    color: orange;
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
+
+.Full-Stack-Web-Developer{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+#experience-1{
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+#experience-2{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
