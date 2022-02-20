@@ -49,6 +49,9 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 }
+#section3-h1{
+    padding-left: 3%;
+}
 
 .Full-Stack-Web-Developer{
     width: 40%;
